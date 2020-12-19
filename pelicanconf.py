@@ -4,6 +4,8 @@
 AUTHOR = 'Zarco Dionisio'
 SITENAME = 'Mictlan Forensic'
 SITEURL = ''
+SITESUBTITLE = "Ciencias Forenses"
+
 
 PATH = 'content'
 STATIC_PATHS = ['img']
@@ -19,16 +21,18 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Facebook', 'https://www.facebook.com/MictlanForensic'),
-         ('Instagram', 'https://www.instagram.com/mictlanforensic'),
-         ('Twitter', 'https://twitter.com/MictlanForensic'),)
+
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Facebook', 'https://www.facebook.com/MictlanForensic'),
+         ('Instagram', 'https://www.instagram.com/mictlanforensic'),
+         ('Twitter', 'https://twitter.com/MictlanForensic'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+THEME = "/home/arkreuz/Workspace/MicFor/Themes/Flex-master"
+DISPLAY_PAGES_ON_MENU = None
+BOOTSTRAP_THEME = "amelia"
