@@ -36,3 +36,21 @@ DEFAULT_PAGINATION = 10
 THEME = "/home/arkreuz/Workspace/MicFor/Themes/Flex-master"
 DISPLAY_PAGES_ON_MENU = None
 BOOTSTRAP_THEME = "amelia"
+
+# Path to Plugins
+PLUGIN_PATHS = ['/home/arkreuz/Workspace/MicFor/pelican-plugins']
+# Enable i18n plugin, probably you already have some others here.
+PLUGINS = ['i18n_subsites']
+# Enable Jinja2 i18n extension used to parse translations.
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+
+
+# Default theme language.
+I18N_TEMPLATES_LANG = "en"
+
+# Your language.
+DEFAULT_LANG = "es_ES"
+
+# Match languages for other configs.
+OG_LOCALE = "es_ES"
+LOCALE = ("es_ES", "es_ES.utf8")
