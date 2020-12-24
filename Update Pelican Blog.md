@@ -4,9 +4,9 @@
 
 ```bash
 $ source venv/bin/activate
-$ git checkout -b main
+$ git checkout main
 $ git pull
-$ git checkout -b source
+$ git checkout source
 $ git add -A && git commit -a -m 'Update' && git push --all
 $ make github
 ```
